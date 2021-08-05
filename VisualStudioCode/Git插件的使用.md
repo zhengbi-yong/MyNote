@@ -12,3 +12,4 @@
 2. 在Github中创建一个仓库 `repository` 来存放你的文件。
 
 # VScode中Git的使用
+1. 在侧边栏找到第三个图标。
