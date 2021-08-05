@@ -16,11 +16,22 @@
 ## 3.Git的配置
 1. 点击右键打开 `Git Bash` 。
 2. 用下面的命令给电脑指定一个用户名和邮件地址。
-```
+```bash
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com" 
 ```
-
+3. 登录Github，创建SSHkey，用下面的命令。
+```bash
+ssh-keygen -t rsa -C "your@email.com"
+```
+4. 在本地用户文件夹下会产生一个 `.ssh` 文件夹，里面包含 `id_rsa` 和 `id_rsa.pub` 两个文件。
+5. 用记事本或者其他文本编辑器打开 `id_rsa.pub` ，全选并复制。
+6. 回到Github中的设置中，找到 `SSH and GPG keys` 创建一个新的SSHkey
+7. 回到git中输入以下命令。
+```bash
+ssh -T git@github.com
+```
+8. 然后输入yes，这样就配置好了本地和Github之间的通信。
 ## 4.在VScode中使用Git
 1. 创建一个文件夹。
 2. 使用 `Git Clone` 的方法从Github上将刚才新建的仓库克隆到本地来。
