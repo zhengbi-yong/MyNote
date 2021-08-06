@@ -1,4 +1,5 @@
 # VScode+Git
+
 ## 1.Git的安装
 1. 在Git官网上下载适合的版本。
     >官网地址:  https://git-scm.com/
@@ -6,36 +7,42 @@
     >安装地址可以更改为自己想要的地址。
 3. 新建一个文件夹，在这个文件夹中点击右键，如果出现git bash here等选项则说明安装成功。
 
-
-## 2.Github的使用
+## 2.Github的配置
 1. 注册并激活一个账号。
     >免费的账号就可以。
 2. 在Github中创建一个仓库 `repository` 来存放你的文件。
-
+    >这个仓库在Git的使用过程中应该会和本地的仓库是完全一样的，相当于在网盘上有一个备份。
 
 ## 3.Git的配置
 1. 点击右键打开 `Git Bash` 。
 2. 用下面的命令给电脑指定一个用户名和邮件地址。
-```bash
-$ git config --global user.name "Your Name"
-$ git config --global user.email "email@example.com" 
-```
+    ```bash
+    $ git config --global user.name "Your Name"
+    $ git config --global user.email "email@example.com" 
+    ```
 3. 登录Github，创建SSHkey，用下面的命令。
-```bash
-ssh-keygen -t rsa -C "your@email.com"
-```
+    ```bash
+    ssh-keygen -t rsa -C "your@email.com"
+    ```
 4. 在本地用户文件夹下会产生一个 `.ssh` 文件夹，里面包含 `id_rsa` 和 `id_rsa.pub` 两个文件。
 5. 用记事本或者其他文本编辑器打开 `id_rsa.pub` ，全选并复制。
 6. 回到Github中的设置中，找到 `SSH and GPG keys` 创建一个新的SSHkey
 7. 回到git中输入以下命令。
-```bash
-ssh -T git@github.com
-```
+    ```bash
+    ssh -T git@github.com
+    ```
 8. 然后输入yes，这样就配置好了本地和Github之间的通信。
+
 ## 4.在VScode中使用Git
 1. 创建一个文件夹。
 2. 使用 `Git Clone` 的方法从Github上将刚才新建的仓库克隆到本地来。
 3. 在本地修改文件并保存之后，侧边栏第三个图标会有一个数字上标，这代表了我们已经修改的文件与原来文件的不同的数量。
 4. 点击第三个图标，点击加号，此时会把修改的文件保存到暂存区。
 5. 点击上方的对钩符号，此时将会把修改后的文件提交到本地的仓库中。
-6. 点击最下方状态栏中的刷新按钮，此时会同步到远方Github的在线仓库。
+6. 点击最下方状态栏中的刷新按钮，此时会同步到远方Github的在线仓库。这样就实现了本地修改代码，最后保存到远程仓库的操作。
+
+## 5.Git的工作流程
+1. 在本地修改文件。
+2. 保存修改过的文件到暂存区。
+3. 提交修改，将文件保存到本地的仓库。
+4. 最后同步本地的仓库和远程的仓库。
