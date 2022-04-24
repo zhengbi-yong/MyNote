@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "21c39605eb4faaf2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5624783173132f5f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "程序/Python/生成随机数.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4ae3b1e20feea652",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f16afccebadcc12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d519ecb47b8082b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d63ee223bdcf83b3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cffcf2686f0139f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6d22378900fdfd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "609c64e9907adb76",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "程序/Python/生成随机数.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5624783173132f5f",
+  "lastOpenFiles": [
+    "程序/Python/生成随机数.md",
+    "程序/Python/Numpy/Numpy数组属性.md",
+    "程序/Python/Numpy/Ndarray.md",
+    "程序/Python/Documents/Class.md",
+    "程序/C++/标准容器/模板类vector.md",
+    "程序/C++/标准容器/string类.md",
+    "程序/C++/名称空间.md",
+    "程序/C++/程序结构.md"
+  ]
+}

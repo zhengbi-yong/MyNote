@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "32594606be5fd402",
+    "type": "split",
+    "children": [
+      {
+        "id": "bfea029289b5e748",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "综合笔记本/程序/Python/Numpy/Ndarray.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f4fe5b554dc9318e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c1d1de9e5dbc768",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0913cb1878744bdb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3e1a0e6e1a978d43",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "24314e2848fdebcf",
+    "type": "split",
+    "children": [
+      {
+        "id": "506f09fb065ccbae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2653e2f3581ec44a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "综合笔记本/程序/Python/Numpy/Ndarray.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "bfea029289b5e748",
+  "lastOpenFiles": [
+    "综合笔记本/程序/Python/Numpy/Ndarray.md",
+    "综合笔记本/程序/Python/Numpy/Numpy数组属性.md",
+    "综合笔记本/程序/Python/生成随机数.md",
+    "综合笔记本/程序/Python/Matplotlib/Introduction.md",
+    "综合笔记本/程序/Python/Documents/Files.md"
+  ]
+}
