@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "综合笔记本/理论/操作系统/操作系统知识概要.md",
+            "file": "综合笔记本/程序/Python/Matplotlib/Introduction.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 208
   },
   "right": {
     "id": "24314e2848fdebcf",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "综合笔记本/理论/操作系统/操作系统知识概要.md",
+                "file": "综合笔记本/程序/Python/Matplotlib/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,9 @@
   },
   "active": "bfea029289b5e748",
   "lastOpenFiles": [
-    "综合笔记本/理论/操作系统/操作系统知识概要.md",
     "综合笔记本/程序/Python/Matplotlib/Introduction.md",
+    "综合笔记本/理论/操作系统/2-操作系统用户界面.md",
+    "综合笔记本/理论/操作系统/1-操作系统知识概要.md",
     "综合笔记本/程序/Python/Matplotlib/Introduction.assets/Snipaste_2022-04-24_11-02-59.png",
     "综合笔记本/程序/Python/生成随机数.md",
     "综合笔记本/程序/Python/Numpy/Ndarray.md",
