@@ -31,4 +31,4 @@ plot负责将图像画出来，show负责将图像展示在屏幕上。
 
 最终效果如下：
 
-![Snipaste_2022-04-24_11-02-59](C:\ObsidianNotes\笔记图片库\Snipaste_2022-04-24_11-02-59.png)
+![Snipaste_2022-04-24_11-02-59](Introduction.assets/Snipaste_2022-04-24_11-02-59.png)
